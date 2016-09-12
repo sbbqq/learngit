@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.wqq.develeporandroid.MainActivity">
+
+   <fragment
+       android:layout_width="match_parent"
+       android:id="@+id/hello_Frg"
+       android:layout_weight="1"
+       android:name="com.example.wqq.develeporandroid.fragmenthoem.HelloFragment"
+       android:layout_height="0dp"/>
+   <fragment
+       android:layout_width="match_parent"
+       android:id="@+id/hello_Frg2"
+       android:layout_weight="1"
+       android:name="com.example.wqq.develeporandroid.fragmenthoem.HelloFragment"
+       android:layout_height="0dp"/>
+   <ListView
+       android:layout_width="match_parent"
+       android:layout_weight="2"
+       android:id="@+id/lv_func"
+       android:background="#275455"
+       android:layout_height="0dp"></ListView>
+
+</LinearLayout>
